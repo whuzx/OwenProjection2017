@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300.0dip"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="300.0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10.0dip"
+        android:layout_marginTop="20.0dip"
+        android:gravity="center_horizontal"
+        android:text="AAA"
+
+        android:textSize="16.0sp" />
+
+    <TextView
+        android:id="@+id/content_text_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20.0dip"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:gravity="left"
+        android:text="dialog_latest_prompt"
+
+        android:textSize="16.0sp" />
+
+    <View
+        android:layout_width="300.0dip"
+        android:layout_height="1.0dip"
+        android:background="#ffdddddd" />
+
+    <LinearLayout
+        android:id="@+id/option_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/dialog_ok"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/icon"
+            android:gravity="center"
+            android:paddingBottom="14.0dip"
+            android:paddingTop="14.0dip"
+            android:text="EnterPassword"
+
+            android:textSize="18.0sp" />
+
+        <View
+            android:layout_width="1.0dip"
+            android:layout_height="fill_parent"
+            android:background="#ffdddddd" />
+
+        <TextView
+            android:id="@+id/dialog_cancel"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/icon"
+            android:gravity="center"
+            android:paddingBottom="14.0dip"
+            android:paddingTop="14.0dip"
+            android:text="cancel"
+
+            android:textSize="18.0sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ok_text_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon"
+        android:gravity="center"
+        android:paddingBottom="14.0dip"
+        android:paddingTop="14.0dip"
+        android:text="dialog_ok_label"
+
+        android:textSize="18.0sp"
+        android:visibility="gone" />
+
+</LinearLayout>

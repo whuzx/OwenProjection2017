@@ -1,0 +1,536 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:2:1-657:12
+	package
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml
+		INJECTED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml
+		INJECTED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml
+		INJECTED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:7:5-637:19
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:11:9-41
+	android:allowClearUserData
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:9:9-42
+	android:icon
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:10:9-43
+	android:theme
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:12:9-56
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:8:9-34
+meta-data#hwc-theme
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:13:9-15:61
+	android:value
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:15:13-58
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:14:13-37
+uses-library#com.example.will.never.exist
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:21:9-23:40
+	android:required
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:22:13-56
+activity#com.MyAndroidCollection.MyAndroidCollection
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:25:9-34:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:27:13-45
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:26:13-48
+intent-filter#ACTION_USEDBY_HWID_FROM_SETTINGS+android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:28:13-33:29
+action#android.intent.action.MAIN
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:29:25-66
+action#ACTION_USEDBY_HWID_FROM_SETTINGS
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:30:17-75
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:30:25-72
+category#android.intent.category.LAUNCHER
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:32:27-74
+activity#com.MyAndroidCollection.activitys.ActivitysDemo1
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:36:9-43:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:38:13-46
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:37:13-53
+intent-filter#android.intent.action.MAIN+android.intent.category.SAMPLE_CODE
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:39:13-42:29
+category#android.intent.category.SAMPLE_CODE
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:41:17-80
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:41:27-77
+activity#com.MyAndroidCollection.xml.ParseXmlResource
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:46:9-53:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:48:13-45
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:47:13-49
+activity#com.MyAndroidCollection.control.SpinnerTest
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:56:9-63:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:58:13-40
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:57:13-71
+activity#com.MyAndroidCollection.activitys.ActivityLaunchMode
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:66:9-75:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:69:13-47
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:67:13-57
+activity#com.MyAndroidCollection.activitys.FutureTaskDemo
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:78:9-87:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:81:13-43
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:79:13-53
+activity#com.MyAndroidCollection.activitys.ActivityLaunchMode1
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:90:9-99:20
+	android:process
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:93:13-39
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:92:13-48
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:91:13-58
+activity#com.MyAndroidCollection.activitys.ActivityLaunchMode2
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:101:9-110:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:104:13-48
+	android:finishOnTaskLaunch
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:103:13-46
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:102:13-58
+activity#com.MyAndroidCollection.activitys.ActivityLaunchMode3
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:112:9-122:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:114:13-48
+	android:taskAffinity
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:115:13-51
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:113:13-58
+activity#com.MyAndroidCollection.ipc.mainInf
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:125:9-134:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:127:13-48
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:126:13-40
+activity#com.MyAndroidCollection.App.MySpeak
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:137:9-146:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:139:13-36
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:138:13-40
+service#com.MyAndroidCollection.ipc.MyService
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:148:9-152:19
+	android:process
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:150:13-39
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:149:13-42
+activity#com.MyAndroidCollection.activitys.ActivityLaunchMode4
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:154:9-163:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:156:13-48
+	android:launchMode
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:157:13-48
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:155:13-58
+activity#com.MyAndroidCollection.activitys.ActivitysDemo
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:165:9-172:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:167:13-45
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:166:13-52
+activity#com.MyAndroidCollection.aidl.aidlActivity
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:174:9-181:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:176:13-47
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:175:13-46
+activity#com.MyAndroidCollection.aidl.server.local.BindingActivity
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:184:9-191:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:186:13-44
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:185:13-62
+service#com.MyAndroidCollection.aidl.server.local.LocalService
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:193:9-197:19
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:193:18-64
+intent-filter#com.aidl.test.IMyService1
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:194:13-196:29
+action#com.aidl.test.IMyService1
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:195:17-75
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:195:25-65
+service#com.MyAndroidCollection.aidl.server.remote.MyService
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:200:9-204:19
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:200:18-62
+intent-filter#com.aidl.test.IMyService
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:201:13-203:29
+action#com.aidl.test.IMyService
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:202:17-74
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:202:25-64
+activity#com.MyAndroidCollection.xml.XmlParse
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:207:9-214:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:209:13-43
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:208:13-41
+activity#com.MyAndroidCollection.MyLauncher.MyLauncher
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:216:9-223:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:218:13-39
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:217:13-50
+activity#com.MyAndroidCollection.Services.QueryRunningServices
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:225:9-232:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:227:13-49
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:226:13-58
+activity#com.MyAndroidCollection.Thread.ThreadDemo
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:234:9-241:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:236:13-39
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:235:13-46
+activity#com.MyAndroidCollection.animation.animActivity
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:243:9-250:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:245:13-41
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:244:13-51
+activity#com.MyAndroidCollection.account.AccountActivity
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:252:9-259:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:254:13-44
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:253:13-75
+activity#com.MyAndroidCollection.Widget.CustomActivity
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:262:9-269:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:264:13-41
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:263:13-50
+activity#com.MyAndroidCollection.Thread.AsyncTaskDemo
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:271:9-278:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:273:13-42
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:272:13-49
+activity#com.MyAndroidCollection.App.EarthquakeList
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:280:9-287:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:282:13-39
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:281:13-47
+activity#com.MyAndroidCollection.App.IntentDemo
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:288:9-295:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:290:13-39
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:289:13-43
+activity#com.MyAndroidCollection.App.CurrentWeather
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:297:9-304:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:299:13-43
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:298:13-47
+activity#com.MyAndroidCollection.App.Hellogallery
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:306:9-313:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:308:13-39
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:307:13-45
+activity#com.MyAndroidCollection.App.MyListView
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:315:9-322:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:317:13-40
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:316:13-43
+activity#com.MyAndroidCollection.App.ProgressBarDemo
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:324:9-331:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:326:13-44
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:325:13-48
+activity#com.MyAndroidCollection.App.LayoutInflaterDemo
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:333:9-340:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:335:13-43
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:334:13-51
+activity#com.MyAndroidCollection.App.SpinnerDemo
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:342:9-349:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:344:13-40
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:343:13-44
+activity#com.MyAndroidCollection.App.NotificationDemo
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:351:9-358:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:353:13-45
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:352:13-49
+activity#com.MyAndroidCollection.App.DialogDemo
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:360:9-367:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:362:13-39
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:361:13-43
+activity#com.MyAndroidCollection.Net.HttpAsyncGetImage
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:369:9-376:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:371:13-46
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:370:13-50
+activity#com.MyAndroidCollection.Net.HttpPostConnection
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:378:9-385:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:380:13-47
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:379:13-51
+activity#com.MyAndroidCollection.Net.HttpGetDemo
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:386:9-393:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:388:13-40
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:387:13-44
+activity#com.MyAndroidCollection.App.MyControl
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:394:9-401:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:396:13-38
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:395:13-42
+activity#com.MyAndroidCollection.intent.IntentTest
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:404:9-411:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:406:13-39
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:405:13-69
+activity#com.MyAndroidCollection.activitys.TransContentView
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:413:9-420:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:415:13-45
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:414:13-55
+activity#com.MyAndroidCollection.App.UIDemo
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:422:9-429:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:424:13-35
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:423:13-39
+activity#com.MyAndroidCollection.activitys.FloatSearchBoxDemo
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:432:9-447:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:434:13-35
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:433:13-57
+intent-filter#android.intent.action.SEARCH
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:440:13-442:29
+action#android.intent.action.SEARCH
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:441:17-71
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:441:25-68
+meta-data#android.app.searchable
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:444:13-446:54
+	android:resource
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:446:17-51
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:445:17-54
+activity#com.MyAndroidCollection.ipc.UIAndThreadLooper
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:450:9-458:20
+	android:process
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:453:13-39
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:452:13-46
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:451:13-50
+activity#com.MyAndroidCollection.ipc.updateuiinthread
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:461:9-468:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:463:13-45
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:462:13-49
+activity#com.MyAndroidCollection.ipc.SimpleLoopTest
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:469:9-476:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:471:13-43
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:470:13-47
+activity#com.MyAndroidCollection.view.BaseActivityTest
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:478:9-485:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:480:13-45
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:479:13-73
+activity#com.MyAndroidCollection.ringstones.RingStonesTest
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:488:9-495:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:490:13-43
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:489:13-77
+activity#com.MyAndroidCollection.App.Fragment.MainFragment
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:497:9-506:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:500:13-41
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:498:13-77
+activity#com.MyAndroidCollection.App.LayoutWeight
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:509:9-518:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:512:13-41
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:510:13-68
+activity#com.MyAndroidCollection.App.Fragment.MainFragment1
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:521:9-530:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:524:13-42
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:522:13-78
+activity#com.MyAndroidCollection.App.Fragment.DialogFragmentActivity
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:532:9-541:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:535:13-51
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:533:13-87
+activity#com.MyAndroidCollection.App.preference.AndroidPreferenceActivity
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:542:9-550:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:544:13-54
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:543:13-92
+activity#com.MyAndroidCollection.App.preference.PreferenceActivity1
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:552:9-562:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:554:13-48
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:553:13-86
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.SAMPLE_CODE+com.MyAndroidCollection.ACTION_PREFERENCE
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:555:13-561:29
+action#com.MyAndroidCollection.ACTION_PREFERENCE
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:557:17-84
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:557:25-81
+category#android.intent.category.DEFAULT
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:560:17-76
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:560:27-73
+activity#com.MyAndroidCollection.db.SQLiteActivity
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:565:9-575:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:567:13-43
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:566:13-69
+activity#com.MyAndroidCollection.App.phone.PhontoActivity
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:577:9-583:20
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:577:19-82
+activity#com.MyAndroidCollection.App.phone.PhotoActivity1
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:584:9-593:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:587:13-43
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:585:13-76
+receiver#com.MyAndroidCollection.Widget.MyWorkDayWidget
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:595:9-606:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:597:13-40
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:596:13-51
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:599:13-601:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:600:17-84
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:600:25-81
+meta-data#android.appwidget.provider
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:602:13-604:59
+	android:resource
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:604:17-56
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:603:17-58
+meta-data#android.app.default_searchable
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:619:9-621:51
+	android:value
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:621:13-48
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:620:13-58
+activity#com.MyAndroidCollection.bean.MyEventBus
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:625:9-634:20
+	android:label
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:627:13-39
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:626:13-67
+uses-sdk
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:638:5-44
+	android:targetSdkVersion
+		INJECTED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml
+		INJECTED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:638:15-41
+		INJECTED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml
+		INJECTED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:640:5-84
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:640:22-81
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:641:5-81
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:641:22-78
+uses-permission#android.permission.INTERNET
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:642:5-643:70
+	xmlns:android
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:642:22-80
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:643:9-51
+uses-permission#android.permission.CALL_PHONE
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:644:5-69
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:644:22-66
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:646:5-71
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:646:22-68
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:647:5-74
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:647:22-71
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:648:5-74
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:648:22-71
+uses-permission#com.huawei.hwid.permission.SERVICE_ACCESS
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:649:5-81
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:649:22-78
+uses-permission#android.permission.CAMERA
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:650:5-65
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:650:22-62
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:652:5-80
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:652:22-77
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:653:5-81
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:653:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:654:5-79
+	android:name
+		ADDED from E:\01mydev\2017-android\MyAndroidCollectionProject\OwenAndroidCollection\src\main\AndroidManifest.xml:654:22-76

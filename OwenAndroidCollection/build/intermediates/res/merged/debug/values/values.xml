@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="auto_update_frequency_entry">  
+        <item>10分钟</item>  
+        <item>30分钟</item>  
+        <item>1小时</item>  
+        <item>12小时</item>  
+        <item>24小时</item>     
+	    </string-array>
+    <string-array name="auto_update_frequency_value">  
+	        <item>10</item>  
+	        <item>30</item>  
+	        <item>60</item>  
+	        <item>720</item>  
+	        <item>1440</item>     
+	    </string-array>
+    <string-array name="colors">
+        <item>red</item>
+        <item>orange</item>
+        <item>yellow</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>violet</item>
+    </string-array>
+    <string-array name="planets">
+       <item>Mercury</item>
+
+        <item>Venus</item>
+
+        <item>Earth</item>
+
+        <item>Mars</item>
+
+        <item>Jupiter</item>
+
+        <item>Saturn</item>
+
+        <item>Uranus</item>
+
+        <item>Neptune</item>
+
+</string-array>
+    <declare-styleable name="HelloGallery"><attr name="android:galleryItemBackground"/><attr format="color" name="textColor"/><attr format="dimension" name="txtsize"/></declare-styleable>
+    <declare-styleable name="MyNoteBook"><attr format="color" name="textColor1"/><attr format="dimension" name="textSize1"/></declare-styleable>
+    <declare-styleable name="TestView"><attr format="reference" name="testViewStyle"/><attr format="color" name="circleColor"/><attr format="float" name="circleRadius"/></declare-styleable>
+    <string name="activity">activitysDemo</string>
+    <string name="activity1">activitsDemo1</string>
+    <string name="aidlclient">aidl客户端</string>
+    <string name="aidlserver">aidl服务端</string>
+    <string name="app_name">MyAndroidCollection</string>
+    <string name="app_name1">FloatSearchBoxDemo</string>
+    <string name="auto_update_frequency_default_value">10</string>
+    <string name="auto_update_frequency_key">auto_update_frequency</string>
+    <string name="auto_update_frequency_summary">设置自动更新的时间周期</string>
+    <string name="auto_update_frequency_title">更新频率</string>
+    <string name="auto_update_setting">自动更新设置</string>
+    <string name="auto_update_switch_key">auto_update_switch</string>
+    <string name="auto_update_switch_summary_off">关闭自动更新</string>
+    <string name="auto_update_switch_summary_on">开启自动更新</string>
+    <string name="auto_update_switch_title">自动更新</string>
+    <string name="camera">拍\t照</string>
+    <string name="cancel">取消</string>
+    <string name="hello">hello</string>
+    <string name="hello1">hello1</string>
+    <string name="planet_prompt">Choose a planet</string>
+    <string name="searchHint">请输入查询内容</string>
+    <string name="searchLabel">查询</string>
+    <string name="searchMenu">查询</string>
+    <string name="system_settings">系统设置</string>
+    <style name="MyDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/icon</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/background_light</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="Theme.OMS" parent="android:Theme">   
+        <item name="testViewStyle">@style/Widget.TestView</item>   
+    </style>
+    <style name="Widget.TestView" parent="android:Widget">   
+        <item name="android:background">#FFFFFFFF</item>   
+        <item name="circleColor">#FFFF0000</item>   
+       <item name="circleRadius">60</item>   
+    </style>
+    <style name="animStyle" parent="@android:style/Widget.ProgressBar.Large">
+		<item name="android:indeterminateDrawable">@anim/test</item>
+	</style>
+</resources>

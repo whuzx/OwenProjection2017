@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\01mydev\\2017-android\\MyAndroidCollectionProject\\OwenAndroidCollection\\build\\intermediates\\res\\merged\\debug\\xml\\widget_provider.xml",
+        "source": "E:\\01mydev\\2017-android\\MyAndroidCollectionProject\\OwenAndroidCollection\\src\\main\\res\\xml\\widget_provider.xml"
+    },
+    {
+        "merged": "E:\\01mydev\\2017-android\\MyAndroidCollectionProject\\OwenAndroidCollection\\build\\intermediates\\res\\merged\\debug\\xml\\customers.xml",
+        "source": "E:\\01mydev\\2017-android\\MyAndroidCollectionProject\\OwenAndroidCollection\\src\\main\\res\\xml\\customers.xml"
+    },
+    {
+        "merged": "E:\\01mydev\\2017-android\\MyAndroidCollectionProject\\OwenAndroidCollection\\build\\intermediates\\res\\merged\\debug\\xml\\searchable.xml",
+        "source": "E:\\01mydev\\2017-android\\MyAndroidCollectionProject\\OwenAndroidCollection\\src\\main\\res\\xml\\searchable.xml"
+    },
+    {
+        "merged": "E:\\01mydev\\2017-android\\MyAndroidCollectionProject\\OwenAndroidCollection\\build\\intermediates\\res\\merged\\debug\\xml\\preferencewithhead.xml",
+        "source": "E:\\01mydev\\2017-android\\MyAndroidCollectionProject\\OwenAndroidCollection\\src\\main\\res\\xml\\preferencewithhead.xml"
+    },
+    {
+        "merged": "E:\\01mydev\\2017-android\\MyAndroidCollectionProject\\OwenAndroidCollection\\build\\intermediates\\res\\merged\\debug\\xml\\simplepreference.xml",
+        "source": "E:\\01mydev\\2017-android\\MyAndroidCollectionProject\\OwenAndroidCollection\\src\\main\\res\\xml\\simplepreference.xml"
+    },
+    {
+        "merged": "E:\\01mydev\\2017-android\\MyAndroidCollectionProject\\OwenAndroidCollection\\build\\intermediates\\res\\merged\\debug\\xml\\default_values.xml",
+        "source": "E:\\01mydev\\2017-android\\MyAndroidCollectionProject\\OwenAndroidCollection\\src\\main\\res\\xml\\default_values.xml"
+    },
+    {
+        "merged": "E:\\01mydev\\2017-android\\MyAndroidCollectionProject\\OwenAndroidCollection\\build\\intermediates\\res\\merged\\debug\\xml\\preferencesetting1.xml",
+        "source": "E:\\01mydev\\2017-android\\MyAndroidCollectionProject\\OwenAndroidCollection\\src\\main\\res\\xml\\preferencesetting1.xml"
+    }
+]

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/system_settings" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/auto_update_switch_key"
+        android:summaryOff="@string/auto_update_switch_summary_off"
+        android:summaryOn="@string/auto_update_switch_summary_on" >
+    </CheckBoxPreference>
+    
+    <ListPreference
+        android:defaultValue="@string/auto_update_frequency_default_value"
+        android:dialogTitle="@string/auto_update_frequency_title"
+        android:entries="@array/auto_update_frequency_entry"
+        android:entryValues="@array/auto_update_frequency_value"
+        android:key="@string/auto_update_frequency_key"
+        android:summary="@string/auto_update_frequency_summary"
+        android:title="@string/auto_update_frequency_title" 
+        android:dependency="@string/auto_update_switch_key">
+    </ListPreference>
+    <PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:summary="settings about emotions"
+        android:title="class" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:summaryOff="No,I am sorry."
+            android:summaryOn="Yes,I love you!"
+            android:title="Love me?" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:summaryOff="No,you are a good person."
+            android:summaryOn="Yes,I hate you!"
+            android:title="Hate me?" >
+        </CheckBoxPreference>
+    </PreferenceScreen>
+<!-- 
+Preference中，可以在最后增加一个空的Category去掉最后一个分割线： -->
+    <PreferenceCategory android:title="" >
+    </PreferenceCategory>
+</PreferenceScreen>

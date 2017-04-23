@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#00aa44"
+>  
+   <Button 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:layout_weight="2"
+   android:text="transfer button"
+   android:id="@+id/transcontentview1_btn0"
+   />
+   
+   <Button 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:layout_weight="2"
+   android:text="上一步"
+   android:id="@+id/transcontentview1_btn1"
+   />
+   
+    <Button 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:layout_weight="2"
+   android:text="下一步"
+   android:id="@+id/transcontentview1_btn2"
+   />
+</LinearLayout>

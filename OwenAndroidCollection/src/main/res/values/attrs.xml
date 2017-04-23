@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<declare-styleable name="HelloGallery">
+<attr name="android:galleryItemBackground" /> 
+<attr name="textColor" format="color"/>
+<attr name="txtsize" format="dimension"/> 
+</declare-styleable>
+
+
+
+
+<declare-styleable name="MyNoteBook">
+<attr name="textColor1" format="color"/>
+<attr name="textSize1" format="dimension"/>
+</declare-styleable>
+
+
+
+<!-- Test -->
+   <!-- These are the attributes that make up customized theme.系统没有的，自己定义 -->   
+  
+  
+    <declare-styleable name="TestView">   
+        <!-- Default TestView style. -->   
+        <attr name="testViewStyle" format="reference" />   
+  
+        <!-- Color to use for the background of the Circle -->   
+       <attr name="circleColor" format="color" />   
+  
+        <attr name="circleRadius" format="float"/>   
+   </declare-styleable>   
+	
+
+
+</resources>
+

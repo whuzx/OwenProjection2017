@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\01mydev\\2017-android\\MyAndroidCollectionProject\\OwenAndroidCollection\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\btn.png",
+        "source": "E:\\01mydev\\2017-android\\MyAndroidCollectionProject\\OwenAndroidCollection\\src\\main\\res\\drawable-mdpi\\btn.png"
+    },
+    {
+        "merged": "E:\\01mydev\\2017-android\\MyAndroidCollectionProject\\OwenAndroidCollection\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\icon.png",
+        "source": "E:\\01mydev\\2017-android\\MyAndroidCollectionProject\\OwenAndroidCollection\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
+        "merged": "E:\\01mydev\\2017-android\\MyAndroidCollectionProject\\OwenAndroidCollection\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\btn_disable.png",
+        "source": "E:\\01mydev\\2017-android\\MyAndroidCollectionProject\\OwenAndroidCollection\\src\\main\\res\\drawable-mdpi\\btn_disable.png"
+    },
+    {
+        "merged": "E:\\01mydev\\2017-android\\MyAndroidCollectionProject\\OwenAndroidCollection\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\btn_select.png",
+        "source": "E:\\01mydev\\2017-android\\MyAndroidCollectionProject\\OwenAndroidCollection\\src\\main\\res\\drawable-mdpi\\btn_select.png"
+    }
+]

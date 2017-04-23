@@ -1,0 +1,2 @@
+include ':DefaultAndroidPattern', ':myandroidlibray01', ':androidmvp', ':JavaInOne', ':owenandroiddemo'
+include ':OwenAndroidCollection'

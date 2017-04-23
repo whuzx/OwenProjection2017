@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DefaultAndroidPattern/DefaultAndroidPattern.iml" filepath="$PROJECT_DIR$/DefaultAndroidPattern/DefaultAndroidPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaInOne/JavaInOne.iml" filepath="$PROJECT_DIR$/JavaInOne/JavaInOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyAndroidCollectionProject.iml" filepath="$PROJECT_DIR$/MyAndroidCollectionProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OwenAndroidCollection/OwenAndroidCollection.iml" filepath="$PROJECT_DIR$/OwenAndroidCollection/OwenAndroidCollection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidmvp/androidmvp.iml" filepath="$PROJECT_DIR$/androidmvp/androidmvp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myandroidlibray01/myandroidlibray01.iml" filepath="$PROJECT_DIR$/myandroidlibray01/myandroidlibray01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OwenAndroidDemo/owenandroiddemo.iml" filepath="$PROJECT_DIR$/OwenAndroidDemo/owenandroiddemo.iml" />
+    </modules>
+  </component>
+</project>

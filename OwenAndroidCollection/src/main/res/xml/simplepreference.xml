@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Settings" >
+
+<!-- 和管理布局显示相关的除了PreferenceScreen外，还有一个常用的为PreferenceCategory，
+我们把上面xml文件中间那两个PreferenceScreen改为PreferenceCategory
+就可以看到PreferenceCategory的显示效果了可以看到PreferenceCategory是把包含的内容归为同一类，
+但只是显示在一个页面中。 -->
+
+    <PreferenceCategory android:key="special_HwID"
+        android:title="标签" />
+      
+    <PreferenceCategory
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:summary="settings about emotions"
+        android:title="Emotions" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:summaryOff="No,I am sorry."
+            android:summaryOn="Yes,I love you!"
+            android:title="Love me?" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:summaryOff="No,you are a good person."
+            android:summaryOn="Yes,I hate you!"
+            android:title="Hate me?" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:summary="settings about relations"
+        android:title="Relations" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:summaryOff="No,I am sorry."
+            android:summaryOn="Yes,we are family!"
+            android:title="Family?" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:summaryOff="No,I am sorry."
+            android:summaryOn="Yes,we are friends!"
+            android:title="Friends?" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    
+    
+    <PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:summary="settings about emotions"
+        android:title="class" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:summaryOff="No,I am sorry."
+            android:summaryOn="Yes,I love you!"
+            android:title="Love me?" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:summaryOff="No,you are a good person."
+            android:summaryOn="Yes,I hate you!"
+            android:title="Hate me?" >
+        </CheckBoxPreference>
+    </PreferenceScreen>
+    
+    <!--             android:targetClass="com.huawei.hwid.ui.extend.setting.LogoutAccountActivity" -->
+      <PreferenceScreen
+        android:key="goto"
+        android:title="通过action跳转">
+        <intent
+            android:action="com.MyAndroidCollection.ACTION_PREFERENCE" >
+
+     
+        </intent>
+    </PreferenceScreen>
+
+</PreferenceScreen>

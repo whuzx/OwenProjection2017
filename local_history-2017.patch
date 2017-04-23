@@ -1,0 +1,16 @@
+Index: .idea/libraries/support_media_compat_25_1_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/support_media_compat_25_1_1.xml	(revision )
++++ .idea/libraries/support_media_compat_25_1_1.xml	(revision )
+@@ -2,6 +2,7 @@
+   <library name="support-media-compat-25.1.1">
+     <ANNOTATIONS>
+       <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/annotations.zip!/" />
++      <root url="jar://$PROJECT_DIR$/myandroidlibray/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/annotations.zip!/" />
+     </ANNOTATIONS>
+     <CLASSES>
+       <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/res" />
+\ No newline at end of file

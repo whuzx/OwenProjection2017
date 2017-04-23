@@ -1,0 +1,4 @@
+<permissions>
+    <library name="com.huawei.systemmanager.separated"
+    file="/system/framework/com.huawei.systemmanager.separated.jar" />
+</permissions>

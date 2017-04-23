@@ -1,0 +1,271 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\libraries\
+* .idea\libraries\libs.xml
+* .idea\markdown-navigator\
+* .idea\markdown-navigator\profiles_settings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\workspace.xml
+* AIDL.rar
+* AIDL\
+* AIDL\aidlClient\
+* AIDL\aidlClient\.classpath
+* AIDL\aidlClient\.project
+* AIDL\aidlClient\.settings\
+* AIDL\aidlClient\.settings\org.eclipse.core.resources.prefs
+* AIDL\aidlClient\AndroidManifest.xml
+* AIDL\aidlClient\aidlClient.iml
+* AIDL\aidlClient\bin\
+* AIDL\aidlClient\bin\aidlClient.apk
+* AIDL\aidlClient\bin\classes.dex
+* AIDL\aidlClient\bin\classes\
+* AIDL\aidlClient\bin\classes\com\
+* AIDL\aidlClient\bin\classes\com\aidl\
+* AIDL\aidlClient\bin\classes\com\aidl\client\
+* AIDL\aidlClient\bin\classes\com\aidl\client\BuildConfig.class
+* AIDL\aidlClient\bin\classes\com\aidl\client\R$attr.class
+* AIDL\aidlClient\bin\classes\com\aidl\client\R$drawable.class
+* AIDL\aidlClient\bin\classes\com\aidl\client\R$id.class
+* AIDL\aidlClient\bin\classes\com\aidl\client\R$layout.class
+* AIDL\aidlClient\bin\classes\com\aidl\client\R$string.class
+* AIDL\aidlClient\bin\classes\com\aidl\client\R.class
+* AIDL\aidlClient\bin\classes\com\aidl\client\aidlActivity$1.class
+* AIDL\aidlClient\bin\classes\com\aidl\client\aidlActivity$2.class
+* AIDL\aidlClient\bin\classes\com\aidl\client\aidlActivity.class
+* AIDL\aidlClient\bin\classes\com\aidl\test\
+* AIDL\aidlClient\bin\classes\com\aidl\test\IMyService$Stub$Proxy.class
+* AIDL\aidlClient\bin\classes\com\aidl\test\IMyService$Stub.class
+* AIDL\aidlClient\bin\classes\com\aidl\test\IMyService.class
+* AIDL\aidlClient\bin\classes\com\aidl\test\ITaskCallBack$Stub$Proxy.class
+* AIDL\aidlClient\bin\classes\com\aidl\test\ITaskCallBack$Stub.class
+* AIDL\aidlClient\bin\classes\com\aidl\test\ITaskCallBack.class
+* AIDL\aidlClient\bin\classes\com\aidl\test\Student$1.class
+* AIDL\aidlClient\bin\classes\com\aidl\test\Student.class
+* AIDL\aidlClient\bin\com\
+* AIDL\aidlClient\bin\com\aidl\
+* AIDL\aidlClient\bin\com\aidl\client\
+* AIDL\aidlClient\bin\com\aidl\client\R$attr.class
+* AIDL\aidlClient\bin\com\aidl\client\R$drawable.class
+* AIDL\aidlClient\bin\com\aidl\client\R$id.class
+* AIDL\aidlClient\bin\com\aidl\client\R$layout.class
+* AIDL\aidlClient\bin\com\aidl\client\R$string.class
+* AIDL\aidlClient\bin\com\aidl\client\R.class
+* AIDL\aidlClient\bin\com\aidl\client\aidlActivity$1.class
+* AIDL\aidlClient\bin\com\aidl\client\aidlActivity.class
+* AIDL\aidlClient\bin\com\aidl\test\
+* AIDL\aidlClient\bin\com\aidl\test\IMyService$Stub$Proxy.class
+* AIDL\aidlClient\bin\com\aidl\test\IMyService$Stub.class
+* AIDL\aidlClient\bin\com\aidl\test\IMyService.class
+* AIDL\aidlClient\bin\com\aidl\test\R$attr.class
+* AIDL\aidlClient\bin\com\aidl\test\R$drawable.class
+* AIDL\aidlClient\bin\com\aidl\test\R$layout.class
+* AIDL\aidlClient\bin\com\aidl\test\R$string.class
+* AIDL\aidlClient\bin\com\aidl\test\R.class
+* AIDL\aidlClient\bin\com\aidl\test\Student$1.class
+* AIDL\aidlClient\bin\com\aidl\test\Student.class
+* AIDL\aidlClient\bin\res\
+* AIDL\aidlClient\bin\res\drawable-hdpi\
+* AIDL\aidlClient\bin\res\drawable-hdpi\icon.png
+* AIDL\aidlClient\bin\res\drawable-ldpi\
+* AIDL\aidlClient\bin\res\drawable-ldpi\icon.png
+* AIDL\aidlClient\bin\res\drawable-mdpi\
+* AIDL\aidlClient\bin\res\drawable-mdpi\icon.png
+* AIDL\aidlClient\bin\resources.ap_
+* AIDL\aidlClient\gen\
+* AIDL\aidlClient\gen\com\
+* AIDL\aidlClient\gen\com\aidl\
+* AIDL\aidlClient\gen\com\aidl\client\
+* AIDL\aidlClient\gen\com\aidl\client\BuildConfig.java
+* AIDL\aidlClient\gen\com\aidl\client\R.java
+* AIDL\aidlClient\project.properties
+* AIDL\aidlClient\res\
+* AIDL\aidlClient\res\drawable-hdpi\
+* AIDL\aidlClient\res\drawable-hdpi\icon.png
+* AIDL\aidlClient\res\drawable-ldpi\
+* AIDL\aidlClient\res\drawable-ldpi\icon.png
+* AIDL\aidlClient\res\drawable-mdpi\
+* AIDL\aidlClient\res\drawable-mdpi\icon.png
+* AIDL\aidlClient\res\layout\
+* AIDL\aidlClient\res\layout\main.xml
+* AIDL\aidlClient\res\values\
+* AIDL\aidlClient\res\values\strings.xml
+* AIDL\aidlClient\src\
+* AIDL\aidlClient\src\com\
+* AIDL\aidlClient\src\com\aidl\
+* AIDL\aidlClient\src\com\aidl\client\
+* AIDL\aidlClient\src\com\aidl\client\aidlActivity.java
+* AIDL\aidlClient\src\com\aidl\test\
+* AIDL\aidlClient\src\com\aidl\test\IMyService.java
+* AIDL\aidlClient\src\com\aidl\test\ITaskCallBack.java
+* AIDL\aidlClient\src\com\aidl\test\Student.java
+* AIDL\aidlService\
+* AIDL\aidlService\.classpath
+* AIDL\aidlService\.project
+* AIDL\aidlService\.settings\
+* AIDL\aidlService\.settings\org.eclipse.core.resources.prefs
+* AIDL\aidlService\AndroidManifest.xml
+* AIDL\aidlService\aidlService.iml
+* AIDL\aidlService\bin\
+* AIDL\aidlService\bin\aidlService.apk
+* AIDL\aidlService\bin\aidlserver.apk
+* AIDL\aidlService\bin\classes.dex
+* AIDL\aidlService\bin\classes\
+* AIDL\aidlService\bin\classes\com\
+* AIDL\aidlService\bin\classes\com\aidl\
+* AIDL\aidlService\bin\classes\com\aidl\test\
+* AIDL\aidlService\bin\classes\com\aidl\test\BuildConfig.class
+* AIDL\aidlService\bin\classes\com\aidl\test\IMyService$Stub$Proxy.class
+* AIDL\aidlService\bin\classes\com\aidl\test\IMyService$Stub.class
+* AIDL\aidlService\bin\classes\com\aidl\test\IMyService.aidl
+* AIDL\aidlService\bin\classes\com\aidl\test\IMyService.class
+* AIDL\aidlService\bin\classes\com\aidl\test\ITaskCallBack$Stub$Proxy.class
+* AIDL\aidlService\bin\classes\com\aidl\test\ITaskCallBack$Stub.class
+* AIDL\aidlService\bin\classes\com\aidl\test\ITaskCallBack.aidl
+* AIDL\aidlService\bin\classes\com\aidl\test\ITaskCallBack.class
+* AIDL\aidlService\bin\classes\com\aidl\test\R$attr.class
+* AIDL\aidlService\bin\classes\com\aidl\test\R$drawable.class
+* AIDL\aidlService\bin\classes\com\aidl\test\R$id.class
+* AIDL\aidlService\bin\classes\com\aidl\test\R$layout.class
+* AIDL\aidlService\bin\classes\com\aidl\test\R$string.class
+* AIDL\aidlService\bin\classes\com\aidl\test\R.class
+* AIDL\aidlService\bin\classes\com\aidl\test\Student$1.class
+* AIDL\aidlService\bin\classes\com\aidl\test\Student.aidl
+* AIDL\aidlService\bin\classes\com\aidl\test\Student.class
+* AIDL\aidlService\bin\classes\com\aidl\test\local\
+* AIDL\aidlService\bin\classes\com\aidl\test\local\BindingActivity$1.class
+* AIDL\aidlService\bin\classes\com\aidl\test\local\BindingActivity$2.class
+* AIDL\aidlService\bin\classes\com\aidl\test\local\BindingActivity.class
+* AIDL\aidlService\bin\classes\com\aidl\test\local\LocalService$LocalBinder.class
+* AIDL\aidlService\bin\classes\com\aidl\test\local\LocalService.class
+* AIDL\aidlService\bin\classes\com\aidl\test\remote\
+* AIDL\aidlService\bin\classes\com\aidl\test\remote\MyService$MyServiceimpl$1.class
+* AIDL\aidlService\bin\classes\com\aidl\test\remote\MyService$MyServiceimpl.class
+* AIDL\aidlService\bin\classes\com\aidl\test\remote\MyService.class
+* AIDL\aidlService\bin\classes\com\aidl\test\remote\aidlActivity.class
+* AIDL\aidlService\bin\com\
+* AIDL\aidlService\bin\com\aidl\
+* AIDL\aidlService\bin\com\aidl\test\
+* AIDL\aidlService\bin\com\aidl\test\IMyService$Stub$Proxy.class
+* AIDL\aidlService\bin\com\aidl\test\IMyService$Stub.class
+* AIDL\aidlService\bin\com\aidl\test\IMyService.aidl
+* AIDL\aidlService\bin\com\aidl\test\IMyService.class
+* AIDL\aidlService\bin\com\aidl\test\MyService$MyServiceimpl.class
+* AIDL\aidlService\bin\com\aidl\test\MyService.class
+* AIDL\aidlService\bin\com\aidl\test\R$attr.class
+* AIDL\aidlService\bin\com\aidl\test\R$drawable.class
+* AIDL\aidlService\bin\com\aidl\test\R$layout.class
+* AIDL\aidlService\bin\com\aidl\test\R$string.class
+* AIDL\aidlService\bin\com\aidl\test\R.class
+* AIDL\aidlService\bin\com\aidl\test\Student$1.class
+* AIDL\aidlService\bin\com\aidl\test\Student.aidl
+* AIDL\aidlService\bin\com\aidl\test\Student.class
+* AIDL\aidlService\bin\com\aidl\test\aidlActivity.class
+* AIDL\aidlService\bin\res\
+* AIDL\aidlService\bin\res\drawable-hdpi\
+* AIDL\aidlService\bin\res\drawable-hdpi\icon.png
+* AIDL\aidlService\bin\res\drawable-ldpi\
+* AIDL\aidlService\bin\res\drawable-ldpi\icon.png
+* AIDL\aidlService\bin\res\drawable-mdpi\
+* AIDL\aidlService\bin\res\drawable-mdpi\icon.png
+* AIDL\aidlService\bin\resources.ap_
+* AIDL\aidlService\gen\
+* AIDL\aidlService\gen\com\
+* AIDL\aidlService\gen\com\aidl\
+* AIDL\aidlService\gen\com\aidl\test\
+* AIDL\aidlService\gen\com\aidl\test\BuildConfig.java
+* AIDL\aidlService\gen\com\aidl\test\IMyService.java
+* AIDL\aidlService\gen\com\aidl\test\ITaskCallBack.java
+* AIDL\aidlService\gen\com\aidl\test\R.java
+* AIDL\aidlService\project.properties
+* AIDL\aidlService\res\
+* AIDL\aidlService\res\drawable-hdpi\
+* AIDL\aidlService\res\drawable-hdpi\icon.png
+* AIDL\aidlService\res\drawable-ldpi\
+* AIDL\aidlService\res\drawable-ldpi\icon.png
+* AIDL\aidlService\res\drawable-mdpi\
+* AIDL\aidlService\res\drawable-mdpi\icon.png
+* AIDL\aidlService\res\layout\
+* AIDL\aidlService\res\layout\main.xml
+* AIDL\aidlService\res\values\
+* AIDL\aidlService\res\values\strings.xml
+* AIDL\aidlService\src\
+* AIDL\aidlService\src\com\
+* AIDL\aidlService\src\com\aidl\
+* AIDL\aidlService\src\com\aidl\test\
+* AIDL\aidlService\src\com\aidl\test\IMyService.aidl
+* AIDL\aidlService\src\com\aidl\test\ITaskCallBack.aidl
+* AIDL\aidlService\src\com\aidl\test\Student.aidl
+* AIDL\aidlService\src\com\aidl\test\Student.java
+* AIDL\aidlService\src\com\aidl\test\local\
+* AIDL\aidlService\src\com\aidl\test\local\BindingActivity.java
+* AIDL\aidlService\src\com\aidl\test\local\LocalService.java
+* AIDL\aidlService\src\com\aidl\test\remote\
+* AIDL\aidlService\src\com\aidl\test\remote\MyService.java
+* AIDL\aidlService\src\com\aidl\test\remote\aidlActivity.java
+* MyAndroidCollection.iml
+* default.properties
+* out\
+* out\production\
+* out\production\MyAndroidCollection\
+* out\production\MyAndroidCollection\com\
+* out\production\MyAndroidCollection\com\MyAndroidCollection\
+* out\production\MyAndroidCollection\com\MyAndroidCollection\aidl\
+* out\production\MyAndroidCollection\com\MyAndroidCollection\aidl\server\
+* out\production\MyAndroidCollection\com\MyAndroidCollection\aidl\server\IMyService.aidl
+* out\production\MyAndroidCollection\com\MyAndroidCollection\aidl\server\ITaskCallBack.aidl
+* out\production\MyAndroidCollection\com\MyAndroidCollection\aidl\server\Student.aidl
+* out\production\MyAndroidCollection\com\accounts.rar
+* out\production\aidlService\
+* out\production\aidlService\com\
+* out\production\aidlService\com\aidl\
+* out\production\aidlService\com\aidl\test\
+* out\production\aidlService\com\aidl\test\IMyService.aidl
+* out\production\aidlService\com\aidl\test\ITaskCallBack.aidl
+* out\production\aidlService\com\aidl\test\Student.aidl
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => OwenAndroidCollection\src\main\AndroidManifest.xml
+* assets\ => OwenAndroidCollection\src\main\assets\
+* libs\httpclient-4.3.2.jar => OwenAndroidCollection\libs\httpclient-4.3.2.jar
+* libs\httpcore-4.3.1.jar => OwenAndroidCollection\libs\httpcore-4.3.1.jar
+* libs\log4j-1.2.17.jar => OwenAndroidCollection\libs\log4j-1.2.17.jar
+* lint.xml => OwenAndroidCollection\lint.xml
+* res\ => OwenAndroidCollection\src\main\res\
+* src\ => OwenAndroidCollection\src\main\java\
+* src\com\accounts.rar => OwenAndroidCollection\src\main\resources\com\accounts.rar
+* src\com\MyAndroidCollection\aidl\server\IMyService.aidl => OwenAndroidCollection\src\main\aidl\com\MyAndroidCollection\aidl\server\IMyService.aidl
+* src\com\MyAndroidCollection\aidl\server\ITaskCallBack.aidl => OwenAndroidCollection\src\main\aidl\com\MyAndroidCollection\aidl\server\ITaskCallBack.aidl
+* src\com\MyAndroidCollection\aidl\server\Student.aidl => OwenAndroidCollection\src\main\aidl\com\MyAndroidCollection\aidl\server\Student.aidl
+* src\com\MyAndroidCollection\view\BaseActivityTest.groovy => OwenAndroidCollection\src\main\resources\com\MyAndroidCollection\view\BaseActivityTest.groovy
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

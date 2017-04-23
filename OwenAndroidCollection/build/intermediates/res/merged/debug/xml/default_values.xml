@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a primitive example showing how to set default values for preferences.
+     See DefaultValues.java for more information. -->
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+</PreferenceScreen>

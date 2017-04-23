@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.huawei.systemmanager.overlay.g750t"
+          android:versionCode="1"
+          android:versionName="1.0">
+  <overlay-package android:name="com.huawei.systemmanager" />
+</manifest>

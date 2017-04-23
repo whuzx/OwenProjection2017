@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="planets">
+       <item>Mercury</item>
+
+        <item>Venus</item>
+
+        <item>Earth</item>
+
+        <item>Mars</item>
+
+        <item>Jupiter</item>
+
+        <item>Saturn</item>
+
+        <item>Uranus</item>
+
+        <item>Neptune</item>
+
+</string-array>
+
+
+ <string-array name="colors">
+        <item>red</item>
+        <item>orange</item>
+        <item>yellow</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>violet</item>
+    </string-array>
+    
+ 
+   <!-- 系统设置界面需要要到的数组 -->  
+    <string-array name="auto_update_frequency_entry">  
+        <item>10分钟</item>  
+        <item>30分钟</item>  
+        <item>1小时</item>  
+        <item>12小时</item>  
+        <item>24小时</item>     
+	    </string-array>  
+	    <string-array name="auto_update_frequency_value">  
+	        <item>10</item>  
+	        <item>30</item>  
+	        <item>60</item>  
+	        <item>720</item>  
+	        <item>1440</item>     
+	    </string-array>  
+</resources>

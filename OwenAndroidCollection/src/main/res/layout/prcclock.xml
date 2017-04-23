@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<Button 
+	android:id = "@+id/btnBind"
+	android:layout_width = "wrap_content"
+	android:layout_height = "wrap_content"
+	android:text = "bind" />
+
+<Button 
+	android:id = "@+id/btnUnbind"
+	android:layout_width = "wrap_content"
+	android:layout_height = "wrap_content"
+	android:text = "unind" />
+
+<Button 
+	android:id = "@+id/btnGetCurTime"
+	android:layout_width = "wrap_content"
+	android:layout_height = "wrap_content"
+	android:text = "get current time" />
+	
+</LinearLayout>

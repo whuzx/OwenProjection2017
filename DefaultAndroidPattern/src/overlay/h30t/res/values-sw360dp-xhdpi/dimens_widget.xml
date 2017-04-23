@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DTS2013092502152 huangzhou 00210503 20130927 create -->
+<!-- DTS2013101104462 huangzhou 00210503 20131011 modify -->
+<resources>
+    <!-- DTS2013102807633 huangzhou/00210503 20131105 begin -->
+    <dimen name="widget_cleanner_progress_weight">10dp</dimen>
+    <!-- DTS2013102807633 huangzhou/00210503 20131105 end -->
+    <dimen name="widget_ic_width">60dp</dimen>
+    <dimen name="widget_ic_margin_top">6dp</dimen>
+    <dimen name="widget_progress_width">48dp</dimen>
+    <dimen name="widget_text_margin_top">2.5dp</dimen>
+    <dimen name="widget_title_size">13dp</dimen>
+</resources>

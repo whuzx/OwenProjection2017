@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.MyAndroidCollection"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <application
+        android:name=".App.MyApp"
+        android:allowClearUserData="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light">
+        <meta-data
+            android:name="hwc-theme"
+            android:value="androidhwext:style/Theme.Emui" />
+
+        <!--
+            This is how we can request a library but still allow the app to be
+            installed if it doesn't exist.
+        -->
+        <uses-library
+            android:name="com.example.will.never.exist"
+            android:required="false" />
+
+        <activity
+            android:name=".MyAndroidCollection"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="ACTION_USEDBY_HWID_FROM_SETTINGS" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activitys.ActivitysDemo1"
+            android:label="@string/activity1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".xml.ParseXmlResource"
+            android:label="ParseXmlResource">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.MyAndroidCollection.control.SpinnerTest"
+            android:label="SpinnerTest">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".activitys.ActivityLaunchMode"
+
+            android:label="ActivityLaunchMode">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".activitys.FutureTaskDemo"
+
+            android:label="FutureTaskDemo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".activitys.ActivityLaunchMode1"
+            android:label="ActivityLaunchMode1"
+            android:process=":remote2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activitys.ActivityLaunchMode2"
+            android:finishOnTaskLaunch="true"
+            android:label="ActivityLaunchMode2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activitys.ActivityLaunchMode3"
+            android:label="ActivityLaunchMode3"
+            android:taskAffinity="com.huawei.hwid">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!--       <category  android:name="android.intent.category.LAUNCHER"/> -->
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".ipc.mainInf"
+            android:label="TestSharePreference">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!--        <category android:name="android.intent.category.LAUNCHER" /> -->
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".App.MySpeak"
+            android:label="MySpeak">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".ipc.MyService"
+            android:process=":service">
+
+        </service>
+
+        <activity
+            android:name=".activitys.ActivityLaunchMode4"
+            android:label="ActivityLaunchMode4"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activitys.ActivitysDemo"
+            android:label="@string/activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".aidl.aidlActivity"
+            android:label="@string/aidlclient">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".aidl.server.local.BindingActivity"
+            android:label="BindingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".aidl.server.local.LocalService">
+            <intent-filter>
+                <action android:name="com.aidl.test.IMyService1"></action>
+            </intent-filter>
+        </service>
+
+
+        <service android:name=".aidl.server.remote.MyService">
+            <intent-filter>
+                <action android:name="com.aidl.test.IMyService"></action>
+            </intent-filter>
+        </service>
+
+
+        <activity
+            android:name=".xml.XmlParse"
+            android:label="Parse Xml Demo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MyLauncher.MyLauncher"
+            android:label="MyLauncher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Services.QueryRunningServices"
+            android:label="QueryRunningServices">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Thread.ThreadDemo"
+            android:label="ThreadDemo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".animation.animActivity"
+            android:label="animActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.MyAndroidCollection.account.AccountActivity"
+            android:label="AccountActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".Widget.CustomActivity"
+            android:label="CustomWidget">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Thread.AsyncTaskDemo"
+            android:label="AsyncTaskDemo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".App.EarthquakeList"
+            android:label="Earthquake">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".App.IntentDemo"
+            android:label="IntentDemo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".App.CurrentWeather"
+            android:label="CurrentWeather">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".App.Hellogallery"
+            android:label="My Gallery">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".App.MyListView"
+            android:label="My ListView">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".App.ProgressBarDemo"
+            android:label="ProgressBarDemo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".App.LayoutInflaterDemo"
+            android:label="LayoutInflater">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".App.SpinnerDemo"
+            android:label="SpinnerDemo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".App.NotificationDemo"
+            android:label="NotificationDemo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".App.DialogDemo"
+            android:label="DialogDemo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Net.HttpAsyncGetImage"
+            android:label="HttpAsyncGetImage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Net.HttpPostConnection"
+            android:label="HttpPostConnection">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Net.HttpGetDemo"
+            android:label="HttpGetDemo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".App.MyControl"
+            android:label="MyControl">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.MyAndroidCollection.intent.IntentTest"
+            android:label="IntentTest">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activitys.TransContentView"
+            android:label="TransContentView">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".App.UIDemo"
+            android:label="UIDemo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".activitys.FloatSearchBoxDemo"
+            android:label="Search">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+
+        <activity
+            android:name=".ipc.UIAndThreadLooper"
+            android:label="UIAndThreadLooper"
+            android:process=":remote1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".ipc.updateuiinthread"
+            android:label="updateuiinthread">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ipc.SimpleLoopTest"
+            android:label="SimpleLoopTest">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.MyAndroidCollection.view.BaseActivityTest"
+            android:label="BaseActivityTest">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.MyAndroidCollection.ringstones.RingStonesTest"
+            android:label="RingStonesTest">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <!--    android:configChanges="orientation|screenSize" -->
+        <activity
+            android:name="com.MyAndroidCollection.App.Fragment.MainFragment"
+
+            android:label="MainFragment">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.MyAndroidCollection.App.LayoutWeight"
+
+            android:label="LayoutWeight">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.MyAndroidCollection.App.Fragment.MainFragment1"
+
+            android:label="MainFragment1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.MyAndroidCollection.App.Fragment.DialogFragmentActivity"
+
+            android:label="DialogFragmentActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.MyAndroidCollection.App.preference.AndroidPreferenceActivity"
+            android:label="AndroidPreferenceActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.MyAndroidCollection.App.preference.PreferenceActivity1"
+            android:label="PreferenceActivity1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.MyAndroidCollection.ACTION_PREFERENCE" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.MyAndroidCollection.db.SQLiteActivity"
+            android:label="SQLiteActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.MyAndroidCollection.ACTION_PREFERENCE" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.MyAndroidCollection.App.phone.PhontoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.MyAndroidCollection.App.phone.PhotoActivity1"
+
+            android:label="PhotoActivity1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".Widget.MyWorkDayWidget"
+            android:label="Work Widget">
+
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_provider" />
+
+        </receiver>
+
+        <!--
+          <receiver android:name="com.MyAndroidCollection.AccountReceiver"
+                >
+                <intent-filter>
+                    <action android:name="com.huawei.hwid.ACTION_PREPARE_LOGOUT_ACCOUNT" />
+                    <action android:name="com.huawei.hwid.ACTION_LOGOUT_FAIL" />
+                    <action android:name="com.huawei.hwid.ACTION_REMOVE_ACCOUNT" />
+                </intent-filter>
+           </receiver> -->
+
+        <!--声名在本应用程序中都可以调用onSearchRequested()进行搜索-->
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".FloatSearchBoxDemo" />
+
+        <!-- bean -->
+
+        <activity
+            android:name="com.MyAndroidCollection.bean.MyEventBus"
+            android:label="MyEventBus">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+    <uses-sdk android:minSdkVersion="15" />
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!--   <uses-permission android:name="com.huawei.hwid.permission.ACCESS" />  -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="com.huawei.hwid.permission.SERVICE_ACCESS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+</manifest>

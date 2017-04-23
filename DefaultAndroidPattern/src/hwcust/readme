@@ -1,0 +1,9 @@
+定制版本
+
+1. 主代码中中打桩，
+
+ private static HwCustNetAssistant4GInfoActivity mCust =
+ (HwCustNetAssistant4GInfoActivity)HwCustUtils.createObj(HwCustNetAssistant4GInfoActivity.class);
+    if(mCust !=null ){
+             mCust.showLTEString(this, -1);
+         }

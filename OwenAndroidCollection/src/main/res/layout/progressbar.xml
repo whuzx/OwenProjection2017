@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+  <TextView 
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="progressbar Demo"
+  />
+
+	<ProgressBar android:id="@+id/rectangleprobar"
+		style="?android:attr/progressBarStyleHorizontal" mce_style="?android:attr/progressBarStyleHorizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:visibility="gone" />
+	<ProgressBar android:id="@+id/circleProgressBar"
+		style="?android:attr/progressBarStyleLarge" mce_style="?android:attr/progressBarStyleLarge"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:visibility="gone" />
+
+	<Button android:id="@+id/probutton" android:text="Show ProgressBar"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />   
+         
+  
+</LinearLayout>
